@@ -4,12 +4,15 @@ med
 Build a production-style RAG chain using LCEL pipes with Pydantic output validation — the modern LangChain pattern.
 """
 
+from langchain_core.tools import retriever
 from langchain_core.prompts import ChatPromptTemplate
 from langchain_core.runnables import RunnablePassthrough, RunnableParallel
 from langchain_openai import ChatOpenAI
 from langchain_core.output_parsers import PydanticOutputParser
 from pydantic import BaseModel, Field
 from typing import Literal
+
+retriever = ""
 
 class ComplianceResult(BaseModel):
     status: Literal['compliant','violation','needs_review']

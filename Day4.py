@@ -3,6 +3,8 @@ from langchain_core.messages import HumanMessage
 from typing import Literal, TypedDict
 from langchain_openai import ChatOpenAI
 
+retriever = ""
+
 class RAGState(TypedDict):
     question: str
     documents: list
