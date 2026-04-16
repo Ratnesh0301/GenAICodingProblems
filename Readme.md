@@ -8,6 +8,8 @@ This repository contains daily practice implementations for GenAI-related coding
 - **Day 2**: *(Python implementation)*
 - **Day 3**: *(Python implementation)*
 - **Day 4**: *(Python implementation)*
+- **Day 5**: *(Python implementation)*
+- **Day 6**: *(Python implementation)*
 
 ## Setup & Requirements
 
